@@ -11,8 +11,8 @@ body
 }
 body:after
 {
-   background-color: #000000;
-   content: "";
+    background: url(images/back.jpg) no-repeat;
+    content: "";
    height: 100vh;
    left: 0;
    position: fixed;
@@ -28,7 +28,7 @@ body:after
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #000000;
+    background: url(images/back.jpg) no-repeat;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -125,10 +125,10 @@ body:after
    text-align: center;
    text-decoration: none;
    vertical-align: top;
-   border: 0px solid #5B28B2;
+   border: 0px solid #13E2EC;
    border-radius: 4px;
    background-color: #5B28B2;
-   background: linear-gradient(to left, #5B28B2 0%, #C095E5 100%);
+   background: linear-gradient(to left, #5B28B2 0%, #13E2EC 100%);
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -694,7 +694,7 @@ body:after
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #000000;
+    background: url(images/back.jpg) no-repeat;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
