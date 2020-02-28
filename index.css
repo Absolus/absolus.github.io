@@ -11,8 +11,8 @@ body
 }
 body:after
 {
-    background: url(images/back.jpg) no-repeat;
-    content: "";
+   background: url(images/back.jpg) no-repeat;
+   content: "";
    height: 100vh;
    left: 0;
    position: fixed;
@@ -28,7 +28,7 @@ body:after
    display: table;
    text-align: center;
    width: 100%;
-    background: url(images/back.jpg) no-repeat;
+   background: url(images/back.jpg) no-repeat;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
