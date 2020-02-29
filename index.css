@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body
 {
    color: #000000;
@@ -135,7 +138,16 @@ body:after
    font-size: 13px;
    -webkit-appearance: none;
    margin: 0;
+    transition: all 0.4s ease;
 }
+#welcomeButton:hover{
+    transform: scale(1.1,1.1);
+    opacity: 70%;
+}
+#welcomeButton:active{
+    transform:scale(1,1);
+}
+#welcomeButto
 #wb_LayoutGrid1
 {
    clear: both;
@@ -1274,9 +1286,9 @@ body:after
 }
 #portfolio-divider-top .divider-fill
 {
-   fill: #000000;
+   fill: #FFFFFF;
    transform-origin: center;
-   transform: rotateY(0deg);
+   transform: rotateY(180deg);
 }
 #wb_portfolioHeading
 {
@@ -1421,13 +1433,21 @@ body:after
    border: 0px solid #5B28B2;
    border-radius: 4px;
    background-color: #5B28B2;
-   background: linear-gradient(to left, #5B28B2 0%, #C095E5 100%);
+   background: linear-gradient(to left, #5B28B2 0%, #13E2EC 100%);
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
    font-size: 15px;
    -webkit-appearance: none;
    margin: 10px 0px 10px 0px;
+    transition: all 0.4s ease;
+}
+#questionsButton:hover{
+    transform: scale(1.1,1.1);
+    opacity: 70%;
+}
+#questionsButton:active{
+    transform:scale(1,1);
 }
 #wb_questionsHeading2
 {
