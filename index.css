@@ -3845,9 +3845,9 @@ body:after
    align-items: center;
    background-color: rgba(0,0,0,0.60);
    opacity: 0;
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1 .title
 {
@@ -3862,9 +3862,9 @@ body:after
    -webkit-transform: translateY(-250%);
    -moz-transform: translateY(-250%);
    transform: translateY(-250%);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1 .description
 {
@@ -3880,9 +3880,9 @@ body:after
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    transform: scale(0);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1 .link
 {
@@ -3903,9 +3903,9 @@ body:after
    -webkit-transform: translateY(250%);
    -moz-transform: translateY(250%);
    transform: translateY(250%);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1:hover .caption
 {
@@ -3952,9 +3952,9 @@ body:after
    border-bottom: 1px solid rgba(255,255,255,0.80);
    content: "";
    opacity: 0;
-   -webkit-transition: all 1000ms linear;
-   -moz-transition: all 1000ms linear;
-   transition: all 1000ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1 .caption::after
 {
@@ -3973,9 +3973,9 @@ body:after
    bottom: 25px;
    border-left: 1px solid rgba(255,255,255,0.80);
    border-right: 1px solid rgba(255,255,255,0.80);
-   -webkit-transition: all 1000ms linear;
-   -moz-transition: all 1000ms linear;
-   transition: all 1000ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText1:hover > .caption::after
 {
@@ -4027,9 +4027,9 @@ body:after
    align-items: center;
    background-color: rgba(0,0,0,0.60);
    opacity: 0;
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2 .title
 {
@@ -4044,9 +4044,9 @@ body:after
    -webkit-transform: translateY(-250%);
    -moz-transform: translateY(-250%);
    transform: translateY(-250%);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2 .description
 {
@@ -4062,9 +4062,9 @@ body:after
    -webkit-transform: scale(0);
    -moz-transform: scale(0);
    transform: scale(0);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2 .link
 {
@@ -4085,9 +4085,9 @@ body:after
    -webkit-transform: translateY(250%);
    -moz-transform: translateY(250%);
    transform: translateY(250%);
-   -webkit-transition: all 500ms linear;
-   -moz-transition: all 500ms linear;
-   transition: all 500ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2:hover .caption
 {
@@ -4134,9 +4134,9 @@ body:after
    border-bottom: 1px solid rgba(255,255,255,0.80);
    content: "";
    opacity: 0;
-   -webkit-transition: all 1000ms linear;
-   -moz-transition: all 1000ms linear;
-   transition: all 1000ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2 .caption::after
 {
@@ -4155,9 +4155,9 @@ body:after
    bottom: 25px;
    border-left: 1px solid rgba(255,255,255,0.80);
    border-right: 1px solid rgba(255,255,255,0.80);
-   -webkit-transition: all 1000ms linear;
-   -moz-transition: all 1000ms linear;
-   transition: all 1000ms linear;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 #RollOverText2:hover > .caption::after
 {
