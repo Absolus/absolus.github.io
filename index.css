@@ -100,6 +100,19 @@ body:after
    width: 100% !important;
 }
 }
+#wb_welcomeText1{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 75px 50px 75px 50px;
+   margin: 0;
+   text-align: center;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 40px;
+   line-height: 40px;
+}
 #wb_welcomeText 
 {
    background-color: transparent;
@@ -115,7 +128,7 @@ body:after
    font-family: Arial;
    font-weight: normal;
    font-size: 32px;
-   line-height: 36px;
+   line-height: 25px;
 }
 #wb_welcomeText p, #wb_welcomeText ul
 {
@@ -839,7 +852,7 @@ body:after
    border-radius: 0px;
    background-color: transparent;
    background-image: none;
-   color: #C095E5;
+   color: #13E2EC;
    font-family: Arial;
    font-weight: normal;
    font-size: 53px;
@@ -935,7 +948,7 @@ body:after
    border-radius: 0px;
    background-color: transparent;
    background-image: none;
-   color: #C095E5;
+   color: #13E2EC;
    font-family: Arial;
    font-weight: normal;
    font-size: 53px;
@@ -1031,7 +1044,7 @@ body:after
    border-radius: 0px;
    background-color: transparent;
    background-image: none;
-   color: #C095E5;
+   color: #13E2EC;
    font-family: Arial;
    font-weight: normal;
    font-size: 53px;
@@ -1127,7 +1140,7 @@ body:after
    border-radius: 0px;
    background-color: transparent;
    background-image: none;
-   color: #C095E5;
+   color: #13E2EC;
    font-family: Arial;
    font-weight: normal;
    font-size: 53px;
@@ -1305,7 +1318,7 @@ body:after
    color: #000000;
    font-family: Arial;
    font-weight: bold;
-   font-size: 32px;
+   font-size: 36px;
    margin: 0;
    text-align: center;
 }
@@ -1852,7 +1865,7 @@ body:after
    border: 0px solid #5B28B2;
    border-radius: 4px;
    background-color: #5B28B2;
-   background: linear-gradient(to left, #5B28B2 0%, #C095E5 100%);
+   background: linear-gradient(to left, #5B28B2 0%, #13E2EC 100%);
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -1860,21 +1873,20 @@ body:after
 }
 #pricesCard2-card-item13:hover
 {
-   background-color: #FFFFFF;
-   color: #0275D8;
-   border-color: #0275D8;
-   -webkit-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   -moz-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
+	opacity: 70%;
+	transform: scale(1.1,1.1);
+}
+#pricesCard2-card-item13:active{
+	transform: scale(1,1);
 }
 #pricesCard2-card-item13
 {
    background-color: #0275D8;
    color: #FFFFFF;
    border-color: #0275D8;
-   -webkit-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   -moz-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
+   -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   transition: all .4s ease;
 }
 #wb_pricesCard1
 {
@@ -2119,29 +2131,26 @@ body:after
    border: 0px solid #5B28B2;
    border-radius: 4px;
    background-color: #5B28B2;
-   background: linear-gradient(to left, #5B28B2 0%, #C095E5 100%);
+   background: linear-gradient(to left, #5B28B2 0%, #13E2EC 100%);
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
+   transition: all 0.4s ease;
 }
 #pricesCard1-card-item13:hover
 {
-   background-color: #FFFFFF;
-   color: #0275D8;
-   border-color: #0275D8;
-   -webkit-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   -moz-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
+    transform: scale(1.1,1.1);
+    opacity: 70%;
+}
+#pricesCard1-card-item13:active{
+    transform: scale(1,1);
 }
 #pricesCard1-card-item13
 {
    background-color: #0275D8;
    color: #FFFFFF;
    border-color: #0275D8;
-   -webkit-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   -moz-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
 }
 #wb_pricesCar3
 {
@@ -2386,7 +2395,7 @@ body:after
    border: 0px solid #5B28B2;
    border-radius: 4px;
    background-color: #5B28B2;
-   background: linear-gradient(to left, #5B28B2 0%, #C095E5 100%);
+   background: linear-gradient(to left, #5B28B2 0%, #13E2EC 100%);
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -2394,21 +2403,20 @@ body:after
 }
 #pricesCar3-card-item13:hover
 {
-   background-color: #FFFFFF;
-   color: #0275D8;
-   border-color: #0275D8;
-   -webkit-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   -moz-transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
-   transition: background-color 300ms linear 0ms, color 300ms linear 0ms, border-color 300ms linear 0ms;
+	transform: scale(1.1,1.1);
+	opacity: 70%;
+}
+#pricesCar3-card-item13:active{
+	transform: scale(1,1);
 }
 #pricesCar3-card-item13
 {
    background-color: #0275D8;
    color: #FFFFFF;
    border-color: #0275D8;
-   -webkit-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   -moz-transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
-   transition: background-color 500ms linear 0ms, color 500ms linear 0ms, border-color 500ms linear 0ms;
+   -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   transition: all .4s ease;
 }
 #wb_Image1
 {
